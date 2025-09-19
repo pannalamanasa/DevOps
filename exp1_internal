@@ -1,0 +1,89 @@
+<head>
+    <title>DevOps Event Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:white;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            margin-top: 10px;
+            color: #3367d6;
+            font-size: 20px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 10px auto;
+            max-width: 100px;
+            height: auto;
+            
+        }
+        form {
+            background-color: rgb(222, 229, 235);
+            max-width: 400px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #325896;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #3367d6;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="header">
+            
+            <img src="images.png" class="logo">
+
+        </div>
+        <h1>ACE ENGINEERING COLLEGE</h1>
+        <h2>An Autonomous Institution</h2>
+        <h3>Event Registration Form</h3>
+
+        <form action="register.html" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password">
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department">
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
