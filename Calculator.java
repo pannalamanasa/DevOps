@@ -1,7 +1,7 @@
 package com.example;
 import java.util.Scanner;
 
-public class BMI {
+public class Calculator {
 
     // Method to calculate BMI
     public static double calculateBMI(double weight, double height) {
